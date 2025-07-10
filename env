@@ -1,0 +1,13 @@
+MONGODB_URI=mongodb+srv://ck:e9JqQR1uvdh6Qt3c@knightontech.nikcksi.mongodb.net/knightontech?retryWrites=true&w=majority&appName=KnightonTech
+STRIPE_SECRET_KEY=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
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_live_51PipzwEIbuDF5tczyNzFr2RVuuiI4UED8rIwrRzb4Fgaxgiz2d872Nh35HoMYsWOnv6fCwoGk1UidBqsBVbx1QC400DRUScEZv
+STRIPE_WEBHOOK_SECRET=whsec_znJlxXXtg3OqwR3Jwb73uhffmKOfaTGu
+ADMIN_PASSWORD=OKVWiC68iE@i
+EASYPOST_API_KEY=EZAK063ca7a7e607487180f84f5ed7118ac9xfYZdV0b3NHyWHhv0PqsKw
+SMTP_HOST=smtp.porkbun.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=contact@knightontech.com
+SMTP_PASS= "0AVhjy!G0zW#it9t"
+MAIL_FROM="Knighton Tech <contact@knightontech.com>"
+CONTACT_EMAIL=contact@knightontech.com

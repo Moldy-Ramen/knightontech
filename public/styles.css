@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+    background-image: url('/img/Backgrounds/back.jpg'); /* Replace with your image */
+    font-family: Arial, sans-serif;
+    padding-bottom: 60px; /* Matches footer height to create space */
+
+}
+
+.navbar {
+    background-color: #1F2937;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-collapse {
+    display: none;
+}
+
+.navbar-collapse.show {
+    display: block;
+}
+
+h1, h2 {
+    color: #1F2937;
+}
+
+
+.btn-primary {
+    background-color: #4A90E2;
+    border: none;
+}
+
+.btn-info {
+    background-color: #50C878;
+    border: none;
+}
+
+.table th {
+    background-color: #1F2937;
+    color: white;
+}
+
+.table td {
+    background-color: #F5F5F5;
+}
+.footer {
+    background-color: #1F2937; /* Dark, professional look */
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Centers text horizontally */
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center; /* Centers the text */
+    align-items: center; /* Centers vertically */
+    height: 100%;
+}
+
+/* Social Media 
+Section Text */
+.social-media h3, .contact-info h2 {
+    font-size: clamp(18px, 4vw, 32px);
+    font-weight: bold;
+}
+
+
+
+/* Social Media Icons */
+.social-icon {
+    font-size: 32px;
+    color: white; /* Deep Teal */
+    margin: 0 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #1F2937; /* Lighter green pop on hover */
+    transform: scale(1.2);
+}
+
+
+/* Landing Page */
+.landing-page {
+    background-color: #DDE5ED; /* Soft blue */
+}
+
+/* Pricing Page */
+.pricing-page {
+    color: white;
+    background-image: url(/img/Backgrounds/back.jpg); /* Replace with your image */
+}
+
+/* Contact Page */
+.contact-page {
+    background-image: url(/img/Backgrounds/back.jpg);
+    background-color: #DDE5ED; /* Soft blue */
+    color: white;
+}
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Soft shadow for better contrast */
+}
+.hero-logo {
+    max-width: 400px; /* Adjust size */
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .social-media h3, .contact-info h2 {
+        font-size: 18px; /* Ensures readability on smaller screens */
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
